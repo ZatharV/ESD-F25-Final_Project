@@ -2409,7 +2409,7 @@
 			)
 			(justify right)
 		)
-		(uuid "4b7e15e4-db9e-4609-937d-5c4e4d245493")
+		(uuid "4b7e15e4-db9e-4609-937d-5c4e4d245494")
 	)
 	(hierarchical_label "MCU_Bat_voltage"
 		(shape input)
