@@ -428,6 +428,10 @@
     [
       "1fa2807b-efc3-4a60-a762-713c99ca2752",
       "EEPROM"
+    ],
+    [
+      "3a44da10-bda0-4944-9b88-183a4a31bf54",
+      "SD_Card"
     ]
   ],
   "text_variables": {}

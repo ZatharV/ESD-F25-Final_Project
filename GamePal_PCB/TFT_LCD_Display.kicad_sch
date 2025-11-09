@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "b5e1cced-adea-4adf-a170-08c5ff627d29")
 	(paper "A4")
+	(title_block
+		(title "GamePal")
+		(company "University of Colorado Boulder")
+		(comment 1 "Engineer: Atharv More, Mayuresh Pitale")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x40"
 			(pin_names
@@ -2437,7 +2442,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4786de14-7016-4aae-b25e-368ee85d9f90")
+		(uuid "4786de14-7016-4aae-b25e-368ee85d9f91")
 	)
 	(bus
 		(pts

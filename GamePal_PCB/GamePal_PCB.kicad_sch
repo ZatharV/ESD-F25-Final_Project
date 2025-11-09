@@ -4,8 +4,279 @@
 	(generator_version "9.0")
 	(uuid "f86353b9-28c7-498c-9494-58f0e067b3b3")
 	(paper "A4")
-	(lib_symbols)
-	(text "MPU6050 for gyro\nButtons for navigation\nEEPROM for save data\nRTC battery - coin cell & LSE\nLCD display\nSD card reader for additional games\nSpeaker\nSwitch for LCD baclight"
+	(title_block
+		(title "GamePal")
+		(date "2025-11-08")
+		(rev "v1.0")
+		(company "University of Colorado Boulder")
+		(comment 1 "Engineer: Atharv More, Mayuresh Pitale")
+	)
+	(lib_symbols
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "MPU6050 for gyro\nButtons for navigation\nEEPROM for save data\nRTC battery - coin cell & LSE\nLCD display\nSD card reader for additional games\nSpeaker\nSwitch for LCD baclight\nAdd a lot of Test points"
 		(exclude_from_sim no)
 		(at 239.776 26.67 0)
 		(effects
@@ -16,9 +287,341 @@
 		)
 		(uuid "07247bf0-fab2-49ae-b197-ec0637d25941")
 	)
+	(wire
+		(pts
+			(xy 171.45 123.19) (xy 171.45 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14227e00-a706-48a4-b40a-8d2a1fe47336")
+	)
+	(wire
+		(pts
+			(xy 163.83 129.54) (xy 180.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b193f8-c927-4c67-973f-8c0d5d94c44d")
+	)
+	(wire
+		(pts
+			(xy 180.34 123.19) (xy 171.45 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580bde73-3d9b-4faa-8bb5-8601efa422c5")
+	)
+	(wire
+		(pts
+			(xy 171.45 113.03) (xy 171.45 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e25edaa-5438-46a9-818f-b756b897e451")
+	)
+	(wire
+		(pts
+			(xy 163.83 120.65) (xy 163.83 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9624ddb-a0c3-4d6e-95f9-4351852febe2")
+	)
+	(wire
+		(pts
+			(xy 163.83 113.03) (xy 163.83 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6940ce2-fc80-49ef-96d1-60320b3ee8b4")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "092ad536-2ba1-4392-b0f5-c0cf88ae6582")
+		(property "Reference" "#PWR060"
+			(at 163.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b642f3c9-ef44-4bda-82eb-b8000fe08b2f")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 171.45 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fdfe45f-8123-433e-b008-2f17126a76c0")
+		(property "Reference" "#PWR061"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1388b14c-1758-4886-8781-3c096e72e8f9")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 171.45 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bf437d7-b1e5-4e9a-99ef-76d2fff03053")
+		(property "Reference" "R11"
+			(at 173.99 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f277313-5200-40bc-ac0f-9b4032f0efcf")
+		)
+		(pin "2"
+			(uuid "f95ef936-16de-4a85-b646-00f8ae810b2a")
+		)
+		(instances
+			(project ""
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 163.83 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb454dfc-4ee0-4af2-bce8-0bcce59a1c5c")
+		(property "Reference" "R12"
+			(at 166.37 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7"
+			(at 166.37 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba292f67-b682-416a-936e-16a681fd547a")
+		)
+		(pin "2"
+			(uuid "def8933f-a869-4eb1-8533-5458d9720897")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 180.34 120.015)
-		(size 16.51 13.97)
+		(size 21.59 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -50,6 +653,26 @@
 				(justify left top)
 			)
 		)
+		(pin "EEPROM_I2C_SDA" input
+			(at 180.34 123.19 180)
+			(uuid "17f14b9a-cdee-4351-83cb-feaf36be81e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EEPROM_I2C_SCL" input
+			(at 180.34 129.54 180)
+			(uuid "1eba0404-e2a7-4472-9426-10d81e800223")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3"
@@ -60,7 +683,7 @@
 	)
 	(sheet
 		(at 180.34 84.455)
-		(size 25.4 22.86)
+		(size 57.785 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -92,10 +715,72 @@
 				(justify left top)
 			)
 		)
+		(pin "LCD_Backlight_CTRL" input
+			(at 180.34 88.9 180)
+			(uuid "bd18e5a5-f19a-4569-a701-44d965bc9264")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD{R[2..7] G[2..7] B[2..7] VSYNC HSYNC CLK DE RESET}" input
+			(at 180.34 97.79 180)
+			(uuid "7a29c6d5-4933-4aee-a630-89833fc9610e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.855 116.84)
+		(size 14.605 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a44da10-bda0-4944-9b88-183a4a31bf54")
+		(property "Sheetname" "SD_Card"
+			(at 109.855 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD_CARD.kicad_sch"
+			(at 109.855 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3"
+					(page "6")
 				)
 			)
 		)
@@ -143,8 +828,8 @@
 		)
 	)
 	(sheet
-		(at 29.21 27.305)
-		(size 22.86 25.4)
+		(at 103.505 85.09)
+		(size 22.86 13.335)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -159,7 +844,7 @@
 		)
 		(uuid "a0445718-dad2-4a5d-8c89-7a774a00eb25")
 		(property "Sheetname" "Power"
-			(at 29.21 26.5934 0)
+			(at 103.505 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,7 +853,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 29.21 53.2896 0)
+			(at 103.505 99.0096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177,7 +862,7 @@
 			)
 		)
 		(pin "TP4056_CHRG" input
-			(at 52.07 36.83 0)
+			(at 126.365 90.805 0)
 			(uuid "d91ddaec-286f-4abf-a728-ab4c73796e71")
 			(effects
 				(font
@@ -187,7 +872,7 @@
 			)
 		)
 		(pin "TP4056_STDBY" input
-			(at 52.07 34.29 0)
+			(at 126.365 88.265 0)
 			(uuid "2d0748cc-5fb3-42ff-aba2-709bcabca0b6")
 			(effects
 				(font
@@ -197,7 +882,7 @@
 			)
 		)
 		(pin "MCU_Bat_voltage" input
-			(at 52.07 45.72 0)
+			(at 126.365 94.615 0)
 			(uuid "84f705f2-179d-4e55-bfc5-ab16378460de")
 			(effects
 				(font

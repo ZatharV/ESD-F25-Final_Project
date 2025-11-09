@@ -4,7 +4,152 @@
 	(generator_version "9.0")
 	(uuid "1b425af1-9ecc-4a3b-8811-2f00eeffd523")
 	(paper "A4")
+	(title_block
+		(title "GamePal")
+		(company "University of Colorado Boulder")
+		(comment 1 "Engineer: Atharv More, Mayuresh Pitale")
+	)
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_EEPROM:24LC16"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -469,7 +614,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 93.98) (xy 140.97 93.98)
+			(xy 146.05 93.98) (xy 140.97 93.98)
 		)
 		(stroke
 			(width 0)
@@ -509,7 +654,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 147.32 96.52)
+			(xy 140.97 96.52) (xy 146.05 96.52)
 		)
 		(stroke
 			(width 0)
@@ -547,9 +692,29 @@
 		)
 		(uuid "b08338a1-69ac-441b-a3f3-e929bbd9343a")
 	)
+	(wire
+		(pts
+			(xy 154.94 81.28) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beac4716-b862-43fb-b947-bc36e3fc583e")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 154.94 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5782789-5ba9-4a9e-b287-d06a0309f1c1")
+	)
 	(hierarchical_label "EEPROM_I2C_SDA"
 		(shape input)
-		(at 147.32 93.98 0)
+		(at 146.05 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -560,7 +725,7 @@
 	)
 	(hierarchical_label "EEPROM_I2C_SCL"
 		(shape input)
-		(at 147.32 96.52 0)
+		(at 146.05 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -919,6 +1084,208 @@
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/1fa2807b-efc3-4a60-a762-713c99ca2752"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 154.94 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba70ba9b-c510-474d-812b-510e634df7b2")
+		(property "Reference" "#PWR058"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 154.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb2b6d46-9204-4439-baa3-2e6b37ce5625")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/1fa2807b-efc3-4a60-a762-713c99ca2752"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 154.94 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c31f4793-b53e-4fd8-bbb5-5387dc1e7ab4")
+		(property "Reference" "C26"
+			(at 157.48 76.2062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 157.48 78.7462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 154.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ad4ca2e-6233-4247-a3cd-4293854001a6")
+		)
+		(pin "2"
+			(uuid "4ba505c7-4b14-473c-aad6-b1122c85b4fa")
+		)
+		(instances
+			(project ""
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/1fa2807b-efc3-4a60-a762-713c99ca2752"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce0408fe-2001-4522-beb9-d5a3cc331d01")
+		(property "Reference" "#PWR059"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3995a53-9580-4854-9a9e-53e50aeafa57")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/1fa2807b-efc3-4a60-a762-713c99ca2752"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
