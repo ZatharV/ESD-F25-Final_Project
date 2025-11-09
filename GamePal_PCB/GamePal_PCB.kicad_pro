@@ -416,6 +416,18 @@
     [
       "a0445718-dad2-4a5d-8c89-7a774a00eb25",
       "Power"
+    ],
+    [
+      "6851e21e-6a0d-46da-adf0-6c5e1986b77c",
+      "STM32"
+    ],
+    [
+      "20c3ca5a-d952-4103-a8e5-58de8bac8d2d",
+      "TFT_LCD"
+    ],
+    [
+      "1fa2807b-efc3-4a60-a762-713c99ca2752",
+      "EEPROM"
     ]
   ],
   "text_variables": {}
