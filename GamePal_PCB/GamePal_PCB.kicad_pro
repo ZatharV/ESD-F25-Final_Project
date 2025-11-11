@@ -426,12 +426,12 @@
       "TFT_LCD"
     ],
     [
-      "1fa2807b-efc3-4a60-a762-713c99ca2752",
-      "EEPROM"
+      "9ec076c9-f611-4cec-863f-97cccc2c91d2",
+      "Memory"
     ],
     [
-      "3a44da10-bda0-4944-9b88-183a4a31bf54",
-      "SD_Card"
+      "d89fdd4c-aed1-438b-92c0-e31ee09484b8",
+      "User_interface"
     ]
   ],
   "text_variables": {}
