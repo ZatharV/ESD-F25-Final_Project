@@ -1,0 +1,6 @@
+../Core/Src/mpu6050.c:5:16:I2C_Wait_Flag	24	static
+../Core/Src/mpu6050.c:13:13:Enable_GPIO_Clock	16	static
+../Core/Src/mpu6050.c:25:9:MPU6050_Init	24	static
+../Core/Src/mpu6050.c:72:6:MPU6050_Write_Byte	24	static
+../Core/Src/mpu6050.c:93:9:MPU6050_Read_Byte	24	static
+../Core/Src/mpu6050.c:128:6:MPU6050_Read_Burst	32	static
