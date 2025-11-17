@@ -1133,6 +1133,16 @@
 		)
 		(uuid "24fb68ff-fc92-478f-b4e5-3659232dc3a9")
 	)
+	(text "Use Through hole"
+		(exclude_from_sim no)
+		(at 49.784 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42be5040-8111-44f0-b5ea-6e65c3147275")
+	)
 	(junction
 		(at 180.34 93.98)
 		(diameter 0)
@@ -1159,6 +1169,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 133.35) (xy 181.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca501a1-0c48-41d4-92b5-b63c7475e430")
+	)
+	(wire
+		(pts
+			(xy 181.61 125.73) (xy 181.61 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d055f8a-cfe1-41c0-a0ba-d32277ed8aa1")
+	)
+	(wire
+		(pts
 			(xy 45.72 60.96) (xy 49.53 60.96)
 		)
 		(stroke
@@ -1166,6 +1196,16 @@
 			(type default)
 		)
 		(uuid "0fecb314-0545-42d4-a717-e46ed04c55f9")
+	)
+	(wire
+		(pts
+			(xy 179.07 135.89) (xy 181.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26406442-8c6e-4b3d-84e9-faf77ae09d7b")
 	)
 	(wire
 		(pts
@@ -1249,6 +1289,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 106.68) (xy 133.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52106781-63fb-4b20-ad81-5be75b26d557")
+	)
+	(wire
+		(pts
+			(xy 203.2 125.73) (xy 203.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5941683e-786d-4137-8c02-a8bc7d44efd0")
+	)
+	(wire
+		(pts
 			(xy 180.34 93.98) (xy 180.34 99.06)
 		)
 		(stroke
@@ -1256,6 +1316,46 @@
 			(type default)
 		)
 		(uuid "5e791074-44d3-4447-a601-c8c37c34706e")
+	)
+	(wire
+		(pts
+			(xy 200.66 135.89) (xy 203.2 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1172f4-32d7-488c-b09b-a5180595fcda")
+	)
+	(wire
+		(pts
+			(xy 203.2 133.35) (xy 203.2 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c98f47-8958-4cbf-bac9-7e1f050abb16")
+	)
+	(wire
+		(pts
+			(xy 133.35 116.84) (xy 133.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b145bb-87c1-4093-9d92-e4755a2c7921")
+	)
+	(wire
+		(pts
+			(xy 163.83 125.73) (xy 163.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b878fa3-afbe-4ff4-8528-c9a0d020d0e5")
 	)
 	(wire
 		(pts
@@ -1276,6 +1376,16 @@
 			(type default)
 		)
 		(uuid "7d3f43bb-e878-454a-9bb0-77bffc0aa6b1")
+	)
+	(wire
+		(pts
+			(xy 161.29 135.89) (xy 163.83 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dab5e4e-6a33-461f-ab69-ad54beeeb477")
 	)
 	(wire
 		(pts
@@ -1309,6 +1419,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 106.68) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11b5ea7-51e0-4bd1-93ba-477c163b8674")
+	)
+	(wire
+		(pts
 			(xy 74.93 60.96) (xy 69.85 60.96)
 		)
 		(stroke
@@ -1319,13 +1439,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 86.36) (xy 184.15 86.36)
+			(xy 179.07 86.36) (xy 184.15 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bf3ba537-6cf1-43f7-82af-a0a86659eec6")
+	)
+	(wire
+		(pts
+			(xy 163.83 133.35) (xy 163.83 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac498c5-395c-457e-8a48-1e9604dec0bc")
 	)
 	(wire
 		(pts
@@ -1378,6 +1508,17 @@
 		)
 		(uuid "094f04e6-74b8-45f3-bf48-7f6a9db195b9")
 	)
+	(hierarchical_label "SD_CARD_detect"
+		(shape input)
+		(at 129.54 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bed2be4-fe21-4688-ad81-eba7c5a76ad7")
+	)
 	(hierarchical_label "SD_SPI_MOSI"
 		(shape input)
 		(at 180.34 76.2 180)
@@ -1388,6 +1529,17 @@
 			(justify right)
 		)
 		(uuid "43e26978-b4a7-4a4f-8336-177c132e06ad")
+	)
+	(hierarchical_label "SD_SPI_CS"
+		(shape input)
+		(at 179.07 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e93078e-9db2-4453-bedd-1242ccf5f4ac")
 	)
 	(hierarchical_label "EEPROM_I2C_SCL"
 		(shape input)
@@ -1402,7 +1554,7 @@
 	)
 	(hierarchical_label "SD_SPI_MISO"
 		(shape input)
-		(at 180.34 86.36 180)
+		(at 179.07 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1410,6 +1562,17 @@
 			(justify right)
 		)
 		(uuid "6a56c0fb-250d-459a-bb1a-8527a881aab4")
+	)
+	(hierarchical_label "SD_SPI_MOSI"
+		(shape input)
+		(at 161.29 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7510e389-5211-4d9a-b9dd-f98d44f0cc13")
 	)
 	(hierarchical_label "SD_SPI_CS"
 		(shape input)
@@ -1421,6 +1584,17 @@
 			(justify right)
 		)
 		(uuid "93125c54-012c-4968-931b-635548fd4461")
+	)
+	(hierarchical_label "SD_SPI_MISO"
+		(shape input)
+		(at 200.66 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5469c55-3d1c-49c9-8d9c-bc67cd6a239d")
 	)
 	(hierarchical_label "SD_SPI_CLK"
 		(shape input)
@@ -1644,6 +1818,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d0feedb-0ec0-4ac3-9259-8619e1fbd297")
+		(property "Reference" "#PWR094"
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24d1a6d1-61cc-423f-a0bb-d902dc105f7e")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 133.35 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b17cc24-795c-4e26-99ca-c8d6ffecc47f")
+		(property "Reference" "C44"
+			(at 135.89 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 135.89 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66b46646-e73d-4a49-83f4-ab4f5a0fbe59")
+		)
+		(pin "1"
+			(uuid "bbdf6286-f94b-4c34-b41f-07c7ed2fa0c4")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 91.44 270)
 		(unit 1)
@@ -1771,6 +2081,76 @@
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 203.2 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45cd4a2c-4e16-490c-8d47-e331475640be")
+		(property "Reference" "R22"
+			(at 200.66 132.0801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.66 129.5401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 203.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 203.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3640c87c-2ea0-4b62-9025-c5edc384c3fc")
+		)
+		(pin "2"
+			(uuid "94319ab6-7b94-477a-9cca-8f92ce1bb140")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1938,7 +2318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 59.69 63.5 0)
 			(effects
 				(font
@@ -1993,6 +2373,76 @@
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 181.61 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ed1f437-cd55-468f-8272-e8b8c92b687d")
+		(property "Reference" "R23"
+			(at 179.07 132.0801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 179.07 129.5401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 181.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 181.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75aa0687-20d8-440c-837b-f1a69358d4aa")
+		)
+		(pin "2"
+			(uuid "a72411fb-abf0-472c-92d9-f98fa871be96")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2065,6 +2515,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 133.35 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e27c843-0a59-42b6-bde0-c7d94e6df363")
+		(property "Reference" "#PWR095"
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df5ae81a-e253-42e7-b997-a76d70375902")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 180.34 101.6 180)
 		(unit 1)
@@ -2092,7 +2608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 180.34 101.6 0)
 			(effects
 				(font
@@ -2162,7 +2678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 231.14 119.38 0)
 			(effects
 				(font
@@ -2299,7 +2815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 218.44 119.38 0)
 			(effects
 				(font
@@ -2336,6 +2852,72 @@
 			(project ""
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 203.2 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abbb2ed6-20f1-46b1-bd2f-14f42605f98b")
+		(property "Reference" "#PWR092"
+			(at 203.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 203.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 203.2 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab29bad2-b53b-41dd-9705-cd757e236ec4")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -2502,7 +3084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 83.82 44.45 0)
 			(effects
 				(font
@@ -2562,7 +3144,7 @@
 				)
 			)
 		)
-		(property "Value" "Micro_SD_Card_Det2"
+		(property "Value" "1040310811"
 			(at 207.645 62.23 0)
 			(effects
 				(font
@@ -2570,7 +3152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811"
 			(at 259.08 63.5 0)
 			(effects
 				(font
@@ -2773,6 +3355,72 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 181.61 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6924b2-b79d-4e93-9f86-080972b752c4")
+		(property "Reference" "#PWR093"
+			(at 181.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 181.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b2d0bf4-c706-4a79-837b-5a5531efb0f7")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 231.14 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2899,6 +3547,76 @@
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 163.83 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef38fbce-0855-45df-803c-b6fa8c04c79b")
+		(property "Reference" "R24"
+			(at 161.29 132.0801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 161.29 129.5401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 163.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 163.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06528749-7371-49c0-b46a-8ea532399941")
+		)
+		(pin "2"
+			(uuid "c72dffdb-c15e-49cd-ba63-fe7ceaa9845a")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
+					(reference "R24")
 					(unit 1)
 				)
 			)

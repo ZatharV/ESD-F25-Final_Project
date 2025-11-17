@@ -1516,6 +1516,16 @@
 		)
 		(uuid "c4be1cc0-5245-4317-9112-a8c024ea7011")
 	)
+	(text "Add an RC filter on DAC"
+		(exclude_from_sim no)
+		(at 52.07 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd269ef5-c661-443a-9886-619d6965963f")
+	)
 	(junction
 		(at 120.65 161.29)
 		(diameter 0)
@@ -1668,7 +1678,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 160.02) (xy 121.92 160.02)
+			(xy 120.65 160.02) (xy 130.81 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1988,7 +1998,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 157.48) (xy 121.92 157.48)
+			(xy 120.65 157.48) (xy 130.81 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2587,7 +2597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:module_mpu6050"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -2806,7 +2816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 64.77 151.13 0)
 			(effects
 				(font
@@ -3006,7 +3016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 142.24 30.48 0)
 			(effects
 				(font
@@ -3207,7 +3217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 46.99 105.41 0)
 			(effects
 				(font
@@ -3408,7 +3418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 115.57 43.18 0)
 			(effects
 				(font
@@ -3610,7 +3620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 52.07 105.41 0)
 			(effects
 				(font
@@ -3680,7 +3690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 173.99 0)
 			(effects
 				(font
@@ -3814,7 +3824,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 142.24 17.78 0)
 			(effects
 				(font
@@ -3949,7 +3959,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 142.24 66.04 0)
 			(effects
 				(font
@@ -4083,7 +4093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 170.18 41.91 0)
 			(effects
 				(font
@@ -4152,7 +4162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 105.41 0)
 			(effects
 				(font
@@ -4196,7 +4206,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 127 160.02 180)
+		(at 135.89 160.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4205,7 +4215,7 @@
 		(fields_autoplaced yes)
 		(uuid "89363141-e5a2-4964-bd8e-fa7bdaf5e7a3")
 		(property "Reference" "J7"
-			(at 128.27 157.4799 0)
+			(at 137.16 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +4224,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 128.27 160.0199 0)
+			(at 137.16 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 160.02 0)
+			(at 135.89 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 160.02 0)
+			(at 135.89 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4251,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 127 160.02 0)
+			(at 135.89 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4299,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 71.12 153.67 0)
 			(effects
 				(font
@@ -4357,7 +4367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 191.77 140.97 0)
 			(effects
 				(font
@@ -4427,7 +4437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.36 173.99 0)
 			(effects
 				(font
@@ -4494,7 +4504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 71.12 151.13 0)
 			(effects
 				(font
@@ -4562,7 +4572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 214.63 161.29 0)
 			(effects
 				(font
@@ -4629,7 +4639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 120.65 168.91 0)
 			(effects
 				(font
@@ -4788,7 +4798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 212.09 116.84 0)
 			(effects
 				(font
@@ -4855,7 +4865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 62.23 153.67 0)
 			(effects
 				(font
@@ -4923,7 +4933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 115.57 55.88 0)
 			(effects
 				(font
@@ -4991,7 +5001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 191.77 128.27 0)
 			(effects
 				(font
@@ -5059,7 +5069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -5194,7 +5204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 36.83 105.41 0)
 			(effects
 				(font
@@ -5261,7 +5271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 120.65 151.13 0)
 			(effects
 				(font
@@ -5331,7 +5341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 24.13 0)
 			(effects
 				(font
@@ -5399,7 +5409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 212.09 104.14 0)
 			(effects
 				(font
@@ -5467,7 +5477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 214.63 148.59 0)
 			(effects
 				(font
@@ -5601,7 +5611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 142.24 78.74 0)
 			(effects
 				(font
@@ -5669,7 +5679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 243.84 127 0)
 			(effects
 				(font
@@ -5737,7 +5747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 243.84 139.7 0)
 			(effects
 				(font
