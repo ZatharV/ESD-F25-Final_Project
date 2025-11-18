@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.5*%
+%TF.CreationDate,2025-11-18T13:30:32-07:00*%
+%TF.ProjectId,GamePal_PCB,47616d65-5061-46c5-9f50-43422e6b6963,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.5) date 2025-11-18 13:30:32*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X100000000Y-100000000D02*
+X250000000Y-100000000D01*
+X250000000Y-150000000D01*
+X100000000Y-150000000D01*
+X100000000Y-100000000D01*
+M02*
