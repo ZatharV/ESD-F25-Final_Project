@@ -1956,9 +1956,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "MCT024L6W240320PML\nLCD Display"
+	(text "AFY240320A1-2.4INTH-C1\nLCD Display"
 		(exclude_from_sim no)
-		(at 55.88 82.55 0)
+		(at 53.594 80.264 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1979,7 +1979,7 @@
 	)
 	(text "Add SPI config\nCheck connector orientation"
 		(exclude_from_sim no)
-		(at 105.664 74.168 0)
+		(at 110.49 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2010,20 +2010,8 @@
 		(uuid "c46c933f-2f93-41fb-b5f1-22314fa6039c")
 	)
 	(no_connect
-		(at 87.63 86.36)
-		(uuid "2079b5f9-fa42-45cd-8d29-d90f2f1074dc")
-	)
-	(no_connect
-		(at 87.63 88.9)
-		(uuid "2e732c5e-8d86-44e0-a704-4fdbe2920851")
-	)
-	(no_connect
 		(at 87.63 170.18)
 		(uuid "5d6e6b50-f7f0-4021-a76c-6886a77a6bc4")
-	)
-	(no_connect
-		(at 87.63 91.44)
-		(uuid "a1396e13-2ae5-436a-be30-dee5772ffd07")
 	)
 	(no_connect
 		(at 87.63 175.26)
@@ -2316,16 +2304,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 78.74) (xy 88.9 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3babf2dc-9f8c-4634-8dd8-67e533c6046d")
-	)
-	(wire
-		(pts
 			(xy 62.23 39.37) (xy 62.23 43.18)
 		)
 		(stroke
@@ -2353,6 +2331,16 @@
 			(type default)
 		)
 		(uuid "4125be3d-67c1-4862-8f2d-bccea125be04")
+	)
+	(wire
+		(pts
+			(xy 92.71 88.9) (xy 87.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42764f5a-683a-43d4-8608-71bf6794f452")
 	)
 	(wire
 		(pts
@@ -2566,7 +2554,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 81.28) (xy 87.63 81.28)
+			(xy 87.63 81.28) (xy 92.71 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2653,16 +2641,6 @@
 			(type default)
 		)
 		(uuid "8f018f8e-0015-48c1-bf97-bc95396f0879")
-	)
-	(wire
-		(pts
-			(xy 88.9 69.85) (xy 88.9 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0bfa40-ff7c-488f-b56b-f00bd00ccbef")
 	)
 	(wire
 		(pts
@@ -2753,6 +2731,16 @@
 			(type default)
 		)
 		(uuid "a693e159-cb3e-40dc-a543-7c0ac0bb3e18")
+	)
+	(wire
+		(pts
+			(xy 92.71 72.39) (xy 92.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae433263-344b-47ff-8fe3-e10924044be3")
 	)
 	(bus
 		(pts
@@ -2856,6 +2844,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 91.44) (xy 87.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a80fca-71ab-4295-97f0-177cabbc7d64")
+	)
+	(wire
+		(pts
 			(xy 228.6 91.44) (xy 236.22 91.44)
 		)
 		(stroke
@@ -2916,6 +2914,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 86.36) (xy 87.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d812a2-d24e-4678-867f-8491dfae9d3b")
+	)
+	(wire
+		(pts
 			(xy 87.63 154.94) (xy 120.65 154.94)
 		)
 		(stroke
@@ -2963,6 +2971,16 @@
 			(type default)
 		)
 		(uuid "faf9caee-6e80-4715-a4bf-8d0f66c4390b")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 92.71 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf7dadd-17c8-4c6e-a880-12f5a4cd23e7")
 	)
 	(wire
 		(pts
@@ -3023,16 +3041,6 @@
 			(justify left bottom)
 		)
 		(uuid "1073c46c-c75b-49bb-98ad-3137936fa345")
-	)
-	(label "LCD_Backlight_D"
-		(at 88.9 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22dc3d24-d07d-49d0-ba3b-cc28e30fca67")
 	)
 	(label "LCD.B7"
 		(at 87.63 144.78 0)
@@ -3224,6 +3232,16 @@
 		)
 		(uuid "c359a290-0ad0-4203-a1d2-164900ed9176")
 	)
+	(label "LCD_Backlight_D"
+		(at 88.9 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9cdf2c4-eca2-45ac-b3e6-030fa56a1c79")
+	)
 	(label "LCD.B3"
 		(at 87.63 154.94 0)
 		(effects
@@ -3324,7 +3342,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 88.9 73.66 0)
+		(at 92.71 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3332,7 +3350,7 @@
 		(dnp no)
 		(uuid "1b9d1f49-3df5-4f88-9572-3d03de3c6b67")
 		(property "Reference" "R5"
-			(at 83.82 72.136 0)
+			(at 94.234 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3359,7 @@
 			)
 		)
 		(property "Value" "1"
-			(at 84.836 74.168 0)
+			(at 95.25 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3368,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 88.9 73.66 0)
+			(at 92.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 73.66 0)
+			(at 92.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3368,7 +3386,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 88.9 73.66 0)
+			(at 92.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,6 +3991,73 @@
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/20c3ca5a-d952-4103-a8e5-58de8bac8d2d"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 92.71 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4216166d-a395-4c17-a494-35652a22bdb5")
+		(property "Reference" "#PWR07"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 96.52 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ad12c0d-66ed-4a90-bed7-416b4748981b")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/20c3ca5a-d952-4103-a8e5-58de8bac8d2d"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4588,6 +4673,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 92.71 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd505ca-01f7-4524-b014-3d3fc80c22f3")
+		(property "Reference" "#PWR06"
+			(at 88.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 96.52 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bb208e1-388d-45a8-a268-3f600e71dc0c")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/20c3ca5a-d952-4103-a8e5-58de8bac8d2d"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 182.88 0)
 		(unit 1)
@@ -4861,17 +5013,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 88.9 69.85 0)
+		(lib_id "power:GND")
+		(at 92.71 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bde2ebd6-59a3-4a14-a69e-615cf30db1d6")
-		(property "Reference" "#PWR054"
-			(at 88.9 73.66 0)
+		(uuid "bd708c90-d09c-4a24-a38f-ee34d105e873")
+		(property "Reference" "#PWR08"
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,16 +5031,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 88.9 64.77 0)
+		(property "Value" "GND"
+			(at 96.52 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 69.85 0)
+			(at 92.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +5050,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 69.85 0)
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd2f228c-002c-4052-88fa-389079fb03e1")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/20c3ca5a-d952-4103-a8e5-58de8bac8d2d"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 92.71 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bde2ebd6-59a3-4a14-a69e-615cf30db1d6")
+		(property "Reference" "#PWR054"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +5125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 88.9 69.85 0)
+			(at 92.71 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
