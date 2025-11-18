@@ -1,62 +1,62 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
-"BT1","1","3V","","","","Battery:BatteryHolder_Seiko_MS621F","~"
-"C1,C2,C44","3","10nF","","","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"C3,C4,C5,C6,C22,C27,C42","7","10uF","","","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"C7,C8","2","15pF","","","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"C9,C10","2","8.2pF","","","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"C11,C23,C39,C45","4","1uF","","","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"C12,C13,C16,C17,C18,C19,C20,C21,C24,C25,C26,C28,C29,C30,C31,C32,C33,C34,C35,C36,C43","21","0.1uF","","","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"C14,C15","2","2.2uF","","","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"C38,C40,C41","3","0.22uF","","","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"D1","1","Green","","","","LED_SMD:LED_0603_1608Metric","~"
-"D2","1","Red","","","","LED_SMD:LED_0603_1608Metric","~"
-"D3","1","SS12","","","","Diode_SMD:D_SMA","~"
-"J1","1","USB_C_Receptacle_PowerOnly_6P","","","","Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal","https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-"J2","1","Battery","","","","Footprints:JST_BM02B-SRSS-TB_LF__SN_",""
-"J3","1","62684-402100ALF","","","","Footprints:AMPHENOL_62684-402100ALF",""
-"J5","1","1040310811","","","","Connector_Card:microSD_HC_Molex_104031-0811","https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
-"J6","1","Serial Uploader","","Excluded from BOM","","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Right","~"
-"J7","1","MPU6050","","","","Footprints:module_mpu6050","~"
-"J8","1","Speaker","","","","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left","~"
-"JP1","1","BOOT0_SP","","Excluded from BOM","","Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm","~"
-"JP2","1","BOOT1_SP","","Excluded from BOM","","Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm","~"
-"JP3","1","FB","","Excluded from BOM","","Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm","~"
-"JP4","1","3V3A","","Excluded from BOM","","Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm","~"
-"JP5","1","GNDA","","Excluded from BOM","","Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm","~"
-"JP6","1","LCD_RD","","Excluded from BOM","","Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm","~"
-"L1","1","WIP201612S-2R2MLDG","","","","Inductor_SMD:L_Murata_DFE201610P","~"
-"Q1,Q2","2","AO3400A","","","","Package_TO_SOT_SMD:TSOT-23","~"
-"R1","1","1.2k","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"R2","1","33k","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"R3,R7,R29","3","100k","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"R4","1","TBD","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"R5","1","1","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"R6,R28","2","100","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"R8,R9,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24","14","10k","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"R10","1","220","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"R11","1","4.7k","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"R12","1","4.7","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"R25,R26,R27","3","0","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"SW1","1","SW_SPDT","","","","Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN","~"
-"SW2","1","RESET","","","","Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2","~"
-"SW3","1","Button_UP","","","","Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG","~"
-"SW4","1","Button_DOWN","","","","Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG","~"
-"SW5","1","Button_RIGHT","","","","Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG","~"
-"SW6","1","Button_LEFT","","","","Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG","~"
-"SW7","1","Button_A","","","","Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG","~"
-"SW8","1","Button_B","","","","Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG","~"
-"SW9","1","Button_X","","","","Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG","~"
-"SW10","1","Button_Y","","","","Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG","~"
-"TP1","1","Vcc","","","","TestPoint:TestPoint_Pad_1.5x1.5mm","~"
-"TP2","1","GND","","","","TestPoint:TestPoint_Pad_1.5x1.5mm","~"
-"TP3","1","USB_Vcc","","","","TestPoint:TestPoint_Pad_1.5x1.5mm","~"
-"TP4","1","Bat_V","","","","TestPoint:TestPoint_Pad_1.5x1.5mm","~"
-"TP5","1","Bat_STDBY","","","","TestPoint:TestPoint_Pad_1.5x1.5mm","~"
-"TP6","1","Bat_CHRG","","","","TestPoint:TestPoint_Pad_1.5x1.5mm","~"
-"U1","1","STM32F429VITx","","","","Package_QFP:LQFP-100_14x14mm_P0.5mm","https://www.st.com/resource/en/datasheet/stm32f429vi.pdf"
-"U2","1","TP4056-42-ESOP8","","","","Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm","https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
-"U4","1","24LC16","","","","Package_DIP:DIP-8_W7.62mm","http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf"
-"U5","1","TPA6203A1DGN","","","","Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.95x2.15mm","https://www.ti.com/lit/ds/symlink/tpa6203a1.pdf"
-"U6","1","LM3671MF-3.3","","","","Package_TO_SOT_SMD:SOT-23-5_HandSoldering",""
-"Y1","1","ECS-250-10-37B-CTN-TR","","","","Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm","~"
-"Y2","1","ECS-.327-9-12-TR","","","","Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering","~"
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+BT1,1,3V,,,,Battery:BatteryHolder_Seiko_MS621F,~
+"C1,C2,C44",3,10nF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+"C3,C4,C5,C6,C22,C27,C42",7,10uF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+"C7,C8",2,15pF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+"C9,C10",2,8.2pF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+"C11,C23,C39,C45",4,1uF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+"C12,C13,C16,C17,C18,C19,C20,C21,C24,C25,C26,C28,C29,C30,C31,C32,C33,C34,C35,C36,C43",21,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+"C14,C15",2,2.2uF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+"C38,C40,C41",3,0.22uF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+D1,1,Green,,,,LED_SMD:LED_0603_1608Metric,~
+D2,1,Red,,,,LED_SMD:LED_0603_1608Metric,~
+D3,1,SS12,,,,Diode_SMD:D_SMA,~
+J1,1,USB_C_Receptacle_PowerOnly_6P,,,,Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal,https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+J2,1,Battery,,,,Footprints:JST_BM02B-SRSS-TB_LF__SN_,
+J3,1,62684-402100ALF,,,,Footprints:AMPHENOL_62684-402100ALF,
+J5,1,1040310811,,,,Connector_Card:microSD_HC_Molex_104031-0811,https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en
+J6,1,Serial Uploader,,Excluded from BOM,,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Right,~
+J7,1,MPU6050,,,,Footprints:module_mpu6050,~
+J8,1,Speaker,,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left,~
+JP1,1,BOOT0_SP,,Excluded from BOM,,Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,~
+JP2,1,BOOT1_SP,,Excluded from BOM,,Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,~
+JP3,1,FB,,Excluded from BOM,,Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,~
+JP4,1,3V3A,,Excluded from BOM,,Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,~
+JP5,1,GNDA,,Excluded from BOM,,Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,~
+JP6,1,LCD_RD,,Excluded from BOM,,Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,~
+L1,1,WIP201612S-2R2MLDG,,,,Inductor_SMD:L_Murata_DFE201610P,~
+"Q1,Q2",2,AO3400A,,,,Package_TO_SOT_SMD:TSOT-23,~
+R1,1,1.2k,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R2,1,33k,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"R3,R7,R29",3,100k,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R4,1,TBD,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R5,1,1,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"R6,R28",2,100,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"R8,R9,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24",14,10k,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R10,1,220,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R11,1,4.7k,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R12,1,4.7,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"R25,R26,R27",3,0,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+SW1,1,SW_SPDT,,,,Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN,~
+SW2,1,RESET,,,,Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2,~
+SW3,1,Button_UP,,,,Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG,~
+SW4,1,Button_DOWN,,,,Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG,~
+SW5,1,Button_RIGHT,,,,Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG,~
+SW6,1,Button_LEFT,,,,Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG,~
+SW7,1,Button_A,,,,Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG,~
+SW8,1,Button_B,,,,Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG,~
+SW9,1,Button_X,,,,Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG,~
+SW10,1,Button_Y,,,,Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG,~
+TP1,1,Vcc,,,,TestPoint:TestPoint_Pad_1.5x1.5mm,~
+TP2,1,GND,,,,TestPoint:TestPoint_Pad_1.5x1.5mm,~
+TP3,1,USB_Vcc,,,,TestPoint:TestPoint_Pad_1.5x1.5mm,~
+TP4,1,Bat_V,,,,TestPoint:TestPoint_Pad_1.5x1.5mm,~
+TP5,1,Bat_STDBY,,,,TestPoint:TestPoint_Pad_1.5x1.5mm,~
+TP6,1,Bat_CHRG,,,,TestPoint:TestPoint_Pad_1.5x1.5mm,~
+U1,1,STM32F429VITx,,,,Package_QFP:LQFP-100_14x14mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32f429vi.pdf
+U2,1,TP4056-42-ESOP8,,,,Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm,https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf
+U4,1,24LC16,,,,Package_DIP:DIP-8_W7.62mm,http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf
+U5,1,TPA6203A1DGN,,,,Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.95x2.15mm,https://www.ti.com/lit/ds/symlink/tpa6203a1.pdf
+U6,1,LM3671MF-3.3,,,,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,
+Y1,1,ECS-250-10-37B-CTN-TR,,,,Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm,~
+Y2,1,ECS-.327-9-12-TR,,,,Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering,~
