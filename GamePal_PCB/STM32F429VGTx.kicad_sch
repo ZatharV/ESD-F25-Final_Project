@@ -4752,8 +4752,20 @@
 		(uuid "03d7f316-0fd3-4e91-bc11-0fca45ececba")
 	)
 	(no_connect
-		(at 115.57 73.66)
-		(uuid "1268193a-f084-4e13-99e6-786f34958a8e")
+		(at 166.37 60.96)
+		(uuid "0592cc96-63fd-43ab-8639-eac233bf6885")
+	)
+	(no_connect
+		(at 166.37 157.48)
+		(uuid "0bd0df13-3b17-4573-81d5-4c8afd7a9af9")
+	)
+	(no_connect
+		(at 115.57 127)
+		(uuid "11b0cc8d-39bb-49b7-be08-84367a45a341")
+	)
+	(no_connect
+		(at 166.37 111.76)
+		(uuid "1a52421a-ad03-4ed2-967b-52f1c57e5675")
 	)
 	(no_connect
 		(at 115.57 114.3)
@@ -4768,20 +4780,16 @@
 		(uuid "2b059326-a7eb-4093-b88e-e49b2a9e94d9")
 	)
 	(no_connect
-		(at 166.37 157.48)
-		(uuid "33f5e23e-9da0-4df2-881b-0f32e0624b4c")
+		(at 166.37 129.54)
+		(uuid "37dd0997-b669-4851-a6dc-b17e0fee83ca")
 	)
 	(no_connect
 		(at 115.57 78.74)
 		(uuid "4356b0c0-54b6-4059-a657-c97732a1b151")
 	)
 	(no_connect
-		(at 115.57 66.04)
-		(uuid "498cf7e2-1f4f-4e0d-8db5-dcf0dbc97bee")
-	)
-	(no_connect
-		(at 115.57 76.2)
-		(uuid "4f644b23-0de6-40ab-8156-64aa3f83be0f")
+		(at 166.37 119.38)
+		(uuid "5ad723b7-844b-4cd0-bd4f-e47ee5ed5397")
 	)
 	(no_connect
 		(at 166.37 154.94)
@@ -4792,12 +4800,12 @@
 		(uuid "6c841bed-150c-4ead-ad5b-a61b8b3a7974")
 	)
 	(no_connect
-		(at 115.57 68.58)
-		(uuid "6cdd384e-3694-437f-a8c1-1d9f2f36f477")
-	)
-	(no_connect
 		(at 115.57 134.62)
 		(uuid "74b789cc-8e48-4610-868a-886d285728f1")
+	)
+	(no_connect
+		(at 115.57 124.46)
+		(uuid "7ac619a5-90fe-4e2d-873e-121182a68067")
 	)
 	(no_connect
 		(at 115.57 60.96)
@@ -4816,6 +4824,10 @@
 		(uuid "92fec6b1-cf5b-4467-b88d-2c4228c4db6e")
 	)
 	(no_connect
+		(at 166.37 127)
+		(uuid "9bfd7c36-95af-4d14-ae97-c3dfef28744e")
+	)
+	(no_connect
 		(at 166.37 152.4)
 		(uuid "a985995d-cbf6-4b09-bea4-ca407dcafb1b")
 	)
@@ -4824,12 +4836,16 @@
 		(uuid "c0e8f8e7-575f-4044-8900-e12ef1e209db")
 	)
 	(no_connect
-		(at 166.37 134.62)
-		(uuid "cbf68175-55e1-452b-a8c6-37cc044e961d")
+		(at 166.37 63.5)
+		(uuid "c4854c60-55b8-4ec2-a95f-a9917290b7c2")
 	)
 	(no_connect
-		(at 115.57 104.14)
-		(uuid "d0f29a12-7ee9-40ab-90fb-26ca57695dd0")
+		(at 166.37 124.46)
+		(uuid "c915f3db-dc51-4bc6-9b06-9fd941159905")
+	)
+	(no_connect
+		(at 166.37 134.62)
+		(uuid "cbf68175-55e1-452b-a8c6-37cc044e961d")
 	)
 	(no_connect
 		(at 115.57 106.68)
@@ -4842,6 +4858,10 @@
 	(no_connect
 		(at 115.57 139.7)
 		(uuid "de18199d-d65a-45fc-9f57-e8f4b763c054")
+	)
+	(no_connect
+		(at 166.37 114.3)
+		(uuid "e7c90894-9652-4baf-b965-6df18f5ec469")
 	)
 	(no_connect
 		(at 115.57 109.22)
@@ -5380,16 +5400,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 119.38) (xy 166.37 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27128bf1-47b4-4e7a-9361-bfec4327e259")
-	)
-	(wire
-		(pts
 			(xy 101.6 22.86) (xy 110.49 22.86)
 		)
 		(stroke
@@ -5787,16 +5797,6 @@
 			(type default)
 		)
 		(uuid "6060fae0-e59f-47bc-a491-3b03d85f0aa8")
-	)
-	(wire
-		(pts
-			(xy 167.64 114.3) (xy 166.37 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60ee527f-8f11-4a70-8afd-55f56f35293d")
 	)
 	(wire
 		(pts
@@ -6300,16 +6300,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 124.46) (xy 115.57 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9faabac8-7139-4409-8d58-d85c21ccf20b")
-	)
-	(wire
-		(pts
 			(xy 270.51 152.4) (xy 270.51 149.86)
 		)
 		(stroke
@@ -6327,16 +6317,6 @@
 			(type default)
 		)
 		(uuid "a1a7339c-fad5-44a1-8125-6dbf6b9415ec")
-	)
-	(wire
-		(pts
-			(xy 167.64 111.76) (xy 166.37 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a252883e-678c-4b09-a8f2-f17fb9fd6c12")
 	)
 	(wire
 		(pts
@@ -6440,16 +6420,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 116.84) (xy 166.37 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b51d1307-9d6c-41e6-8fc2-e2701f984e07")
-	)
-	(wire
-		(pts
 			(xy 138.43 25.4) (xy 138.43 27.94)
 		)
 		(stroke
@@ -6540,16 +6510,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 129.54) (xy 166.37 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4e97a64-c601-41f9-a240-83c5b5ee9f4e")
-	)
-	(wire
-		(pts
 			(xy 63.5 168.91) (xy 63.5 171.45)
 		)
 		(stroke
@@ -6557,16 +6517,6 @@
 			(type default)
 		)
 		(uuid "c50859ea-0512-41cb-9183-c9ac32f30fe4")
-	)
-	(wire
-		(pts
-			(xy 171.45 124.46) (xy 166.37 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7e45e20-9571-4646-84ba-21384fb3224e")
 	)
 	(wire
 		(pts
@@ -6650,16 +6600,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 71.12) (xy 115.57 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d603b70e-249e-4cfd-a56b-368edece72e4")
-	)
-	(wire
-		(pts
 			(xy 254 157.48) (xy 254 158.75)
 		)
 		(stroke
@@ -6667,6 +6607,16 @@
 			(type default)
 		)
 		(uuid "d7320f0e-347a-4be7-bcb2-4811d62e7f9d")
+	)
+	(wire
+		(pts
+			(xy 110.49 104.14) (xy 115.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a02dc6-6577-41c3-ab80-54629acf707e")
 	)
 	(wire
 		(pts
@@ -6990,16 +6940,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 127) (xy 115.57 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8de794e-90d9-4605-9ef7-dc819698110f")
-	)
-	(wire
-		(pts
 			(xy 175.26 55.88) (xy 166.37 55.88)
 		)
 		(stroke
@@ -7007,16 +6947,6 @@
 			(type default)
 		)
 		(uuid "fa72e552-6ce4-4978-9e13-2d47e862d2b4")
-	)
-	(wire
-		(pts
-			(xy 171.45 127) (xy 166.37 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fab7f1b6-aa32-4381-ae67-668209ed144e")
 	)
 	(wire
 		(pts
@@ -7078,16 +7008,6 @@
 		)
 		(uuid "0a46e6b5-9c0b-46d1-aaf1-68d95684a4a7")
 	)
-	(label "PortA_2"
-		(at 248.92 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d6d2991-d5df-43c7-84be-9a0616c05b7e")
-	)
 	(label "BOOT1"
 		(at 172.72 86.36 180)
 		(effects
@@ -7118,36 +7038,6 @@
 		)
 		(uuid "27613ec5-5f74-4e84-8859-a39265e3497a")
 	)
-	(label "PortA_9"
-		(at 166.37 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "319b68b9-bf30-4442-baab-7d1728f2f7e4")
-	)
-	(label "PortA_1"
-		(at 248.92 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32546cf4-203c-45a6-bc3d-8c2110020988")
-	)
-	(label "PortA_10"
-		(at 248.92 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32d4ce84-7413-4b2f-a47f-10b4c77b57f4")
-	)
 	(label "LCD.VSYNC"
 		(at 166.37 48.26 0)
 		(effects
@@ -7167,16 +7057,6 @@
 			(justify right bottom)
 		)
 		(uuid "4020718f-7a11-4ca3-b1f5-aab994ee0b89")
-	)
-	(label "PortA_1"
-		(at 166.37 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "451e569a-a2d2-471f-be9e-165c06082629")
 	)
 	(label "BOOT0"
 		(at 105.41 43.18 0)
@@ -7198,16 +7078,6 @@
 		)
 		(uuid "4be2e68f-fd9f-42c5-bdac-30d67e560eef")
 	)
-	(label "PortA_10"
-		(at 166.37 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50509fb4-c28e-45eb-a162-7053dae6aef9")
-	)
 	(label "LCD.HSYNC"
 		(at 166.37 139.7 0)
 		(effects
@@ -7217,16 +7087,6 @@
 			(justify left bottom)
 		)
 		(uuid "51cf1aaf-981e-4d0f-92ad-9bfb4a7427ad")
-	)
-	(label "PortA_2"
-		(at 166.37 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53a27c9f-f6df-4b06-bb38-bcc61fef1353")
 	)
 	(label "LCD.R4"
 		(at 166.37 66.04 0)
@@ -7257,16 +7117,6 @@
 			(justify left bottom)
 		)
 		(uuid "5ebe80e0-055a-4f1c-9a09-403dd6df3638")
-	)
-	(label "PortA_0"
-		(at 166.37 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f15e53c-f0d9-4f97-9ac4-5d2241895d57")
 	)
 	(label "LCD.R5"
 		(at 166.37 68.58 0)
@@ -7438,16 +7288,6 @@
 		)
 		(uuid "acd8e56b-f6de-4abe-9d84-ee473a5c40ea")
 	)
-	(label "PortA_9"
-		(at 248.92 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae8f40b3-8bdb-409e-9440-ebf98a74fc26")
-	)
 	(label "LCD.RESET"
 		(at 166.37 147.32 0)
 		(effects
@@ -7608,16 +7448,6 @@
 		)
 		(uuid "f9ffb763-ffe6-48bf-82b3-616c7c7db1ab")
 	)
-	(label "PortA_0"
-		(at 248.92 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd0e82a0-38f5-42b6-8f34-f2c0feed5d0e")
-	)
 	(label "SWCLK"
 		(at 173.99 73.66 180)
 		(effects
@@ -7641,14 +7471,14 @@
 	)
 	(hierarchical_label "STM32_SW_ARR_1"
 		(shape input)
-		(at 107.95 124.46 180)
+		(at 115.57 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "14df2113-dae0-4bdc-896f-b7044f2518f4")
+		(uuid "1ba86056-97d3-4a7b-965c-f15227403b7a")
 	)
 	(hierarchical_label "LCD{R[2..7] G[2..7] B[2..7] VSYNC HSYNC CLK DE RESET}"
 		(shape input)
@@ -7694,6 +7524,17 @@
 		)
 		(uuid "3210df2b-5ac6-414d-873e-91126268782b")
 	)
+	(hierarchical_label "STM32_SW_ARR_2"
+		(shape input)
+		(at 166.37 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38679c46-bce3-4e38-a47b-e88f346c19d4")
+	)
 	(hierarchical_label "SPI{CLK MISO MOSI NSS}"
 		(shape input)
 		(at 182.88 86.36 0)
@@ -7716,27 +7557,16 @@
 		)
 		(uuid "481a3328-8144-4fd4-bd99-6dd0d32b38bd")
 	)
-	(hierarchical_label "STM32_SW_ARR_2"
+	(hierarchical_label "STM32_SW_Down"
 		(shape input)
-		(at 107.95 127 180)
+		(at 115.57 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "49328714-353b-42dc-9527-e33163f68104")
-	)
-	(hierarchical_label "STM32_SW_Right"
-		(shape input)
-		(at 167.64 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4dc452bd-a05f-4ecc-9d8b-deabe232ce92")
+		(uuid "4e6e4ba2-2530-4628-b2a2-fc534f506c6d")
 	)
 	(hierarchical_label "LCD{R[2..7] G[2..7] B[2..7] VSYNC HSYNC CLK DE RESET}"
 		(shape input)
@@ -7762,36 +7592,25 @@
 	)
 	(hierarchical_label "STM32_SW_Left"
 		(shape input)
-		(at 167.64 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75165886-ad58-4a0e-a35e-f339452bec38")
-	)
-	(hierarchical_label "Bat_FULL_CHRG_ind"
-		(shape input)
-		(at 171.45 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7540071d-705b-439d-9d73-efcc1ef121dc")
-	)
-	(hierarchical_label "MPU_INT"
-		(shape input)
-		(at 110.49 71.12 180)
+		(at 115.57 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "76903909-0f31-4a3c-a427-883e6feab267")
+		(uuid "570d7432-e4e6-4966-bfd2-d8c7208fc813")
+	)
+	(hierarchical_label "MPU_INT"
+		(shape input)
+		(at 110.49 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d0f5992-f774-4ace-825a-75eb8e82f122")
 	)
 	(hierarchical_label "Speaker_shutdown"
 		(shape input)
@@ -7804,27 +7623,16 @@
 		)
 		(uuid "7c624dc3-bdf0-423f-a018-f8a73233a165")
 	)
-	(hierarchical_label "Bat_charging_ind"
+	(hierarchical_label "Bat_voltage_ADC"
 		(shape input)
-		(at 171.45 127 0)
+		(at 166.37 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "830b2f4a-ef1e-40c9-817c-b32b736e5f40")
-	)
-	(hierarchical_label "STM32_SW_UP"
-		(shape input)
-		(at 167.64 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85b044da-d530-4a5e-8d92-c54c030dfc26")
+		(uuid "900347eb-e57a-481a-87b2-b704c93b41c0")
 	)
 	(hierarchical_label "SPI{CLK MISO MOSI NSS}"
 		(shape input)
@@ -7848,27 +7656,38 @@
 		)
 		(uuid "9390b671-ebe9-4595-9578-84f855ed5b81")
 	)
-	(hierarchical_label "Bat_voltage_ADC"
+	(hierarchical_label "Bat_charging_ind"
 		(shape input)
-		(at 171.45 124.46 0)
+		(at 166.37 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b55a3ac1-a839-4f91-8566-0c99eb4f991c")
+		(uuid "97c9f291-44cc-4584-a269-b0d2220e8902")
 	)
-	(hierarchical_label "STM32_SW_Down"
+	(hierarchical_label "STM32_SW_UP"
 		(shape input)
-		(at 167.64 114.3 0)
+		(at 115.57 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b7bff71c-7156-4ae4-9f11-49c126e073ce")
+		(uuid "b323ddb7-28ae-4562-86cb-8750c28c22a9")
+	)
+	(hierarchical_label "STM32_SW_Right"
+		(shape input)
+		(at 115.57 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb5c8c19-0735-4216-99ec-4ffd3f673c65")
 	)
 	(hierarchical_label "Speaker_DAC"
 		(shape input)
@@ -7881,6 +7700,17 @@
 		)
 		(uuid "d7477984-4bd1-493a-bb51-8f47e2849253")
 	)
+	(hierarchical_label "Bat_FULL_CHRG_ind"
+		(shape input)
+		(at 166.37 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6b70ccc-0c32-48d3-b7fa-1b8deb08503b")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 218.44 29.21 0)
@@ -7891,7 +7721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0984abf3-e2e2-495b-a6ab-a441208db974")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR043"
 			(at 218.44 35.56 0)
 			(effects
 				(font
@@ -7941,7 +7771,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR048")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7957,7 +7787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aebe361-e863-46b7-adc3-7a9eff7d6cf1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR028"
 			(at 34.29 123.19 0)
 			(effects
 				(font
@@ -8007,7 +7837,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR019")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8023,7 +7853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e460658-cf85-4426-87fa-8df8383636d1")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR033"
 			(at 34.29 179.07 0)
 			(effects
 				(font
@@ -8074,7 +7904,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR021")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8160,7 +7990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cdce246-5b7a-4c1c-9df4-06b1198ce209")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR035"
 			(at 88.9 148.59 0)
 			(effects
 				(font
@@ -8211,84 +8041,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 243.84 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22657065-b345-48b4-ac33-fa060742f2cc")
-		(property "Reference" "J8"
-			(at 244.475 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GPIOA"
-			(at 244.475 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 243.84 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e9d57622-20a9-4e57-affc-a4328235615f")
-		)
-		(pin "4"
-			(uuid "2ac33122-9721-42c7-9fd6-3c41dd3243f3")
-		)
-		(pin "1"
-			(uuid "322e9171-1c69-441a-9dc7-420938fad7b0")
-		)
-		(pin "3"
-			(uuid "62ce91aa-a49f-4fa8-bbb3-d536be26d4c5")
-		)
-		(pin "2"
-			(uuid "a2f6bd23-8eb8-4d9e-a796-ce05d4275b21")
-		)
-		(instances
-			(project ""
-				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "J8")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8373,7 +8126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27eaee43-5111-4409-b8e5-86dae954f7fa")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR029"
 			(at 34.29 161.29 0)
 			(effects
 				(font
@@ -8423,7 +8176,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR018")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8439,7 +8192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff2743c-8dec-4b39-9fe7-b97f88d6c973")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG06"
 			(at 133.35 20.955 0)
 			(effects
 				(font
@@ -8489,7 +8242,7 @@
 		(instances
 			(project ""
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#FLG03")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -8575,7 +8328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "376d3fa0-2178-4311-8e2f-22bb352f71ec")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR045"
 			(at 254 165.1 0)
 			(effects
 				(font
@@ -8625,7 +8378,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR055")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8641,7 +8394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46b8b893-eb76-4f11-9761-50135dc95392")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR046"
 			(at 259.08 99.06 0)
 			(effects
 				(font
@@ -8691,7 +8444,7 @@
 		(instances
 			(project ""
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR096")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8755,6 +8508,14 @@
 		)
 		(pin "2"
 			(uuid "5426b458-2711-4fd2-acdd-eaecd19cbfc2")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8909,7 +8670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "539a0e8e-6627-4c46-9eb6-aa66c0e6f1db")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR027"
 			(at 40.64 66.04 0)
 			(effects
 				(font
@@ -8960,7 +8721,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR052")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8976,7 +8737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55688d24-d8f1-4926-bcd0-2d3720760e27")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR041"
 			(at 151.13 29.21 0)
 			(effects
 				(font
@@ -9026,7 +8787,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR057")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9042,7 +8803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56cad42c-06b0-4ee0-b07c-76c532c876a0")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR048"
 			(at 270.51 144.78 0)
 			(effects
 				(font
@@ -9092,7 +8853,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR054")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9524,6 +9285,14 @@
 		(pin "32"
 			(uuid "55745b53-f44c-43cd-8d89-9d93fd71c7bc")
 		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -9675,7 +9444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a431a14-6380-4aca-8ae7-e4be759064f0")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 34.29 168.91 0)
 			(effects
 				(font
@@ -9726,7 +9495,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9949,7 +9718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787c5e43-bb4b-4d61-b099-cc009e0e66f9")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR030"
 			(at 30.48 34.29 0)
 			(effects
 				(font
@@ -10000,7 +9769,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR045")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10016,7 +9785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d59d995-a9e8-484f-9063-2de9ecaffeb4")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 259.08 114.3 0)
 			(effects
 				(font
@@ -10066,7 +9835,7 @@
 		(instances
 			(project ""
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10082,7 +9851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "848095f1-0d19-4dfe-8668-d66ded222238")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR049"
 			(at 270.51 165.1 0)
 			(effects
 				(font
@@ -10132,7 +9901,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR056")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10148,7 +9917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8491d7af-d4e8-4d2e-9421-9fb948a65271")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 22.225 58.42 0)
 			(effects
 				(font
@@ -10164,7 +9933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 21.59 68.58 0)
 			(effects
 				(font
@@ -10206,6 +9975,14 @@
 		(pin "2"
 			(uuid "6c25e0e1-04bf-4ca5-be65-71ad1c1e78b5")
 		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -10225,7 +10002,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "RESET"
 			(at 49.53 24.13 0)
 			(effects
 				(font
@@ -10233,7 +10010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 49.53 24.13 0)
 			(effects
 				(font
@@ -10265,6 +10042,14 @@
 		)
 		(pin "2"
 			(uuid "61bf3f39-fefb-44d5-8740-5b446599cf7e")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10347,7 +10132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95413f81-80bd-483e-af53-e23051f68253")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR036"
 			(at 114.3 48.26 0)
 			(effects
 				(font
@@ -10398,7 +10183,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR050")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10465,6 +10250,14 @@
 		(pin "2"
 			(uuid "c6fc0424-07e9-47c1-ac0c-530fb2570290")
 		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -10476,7 +10269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e45b81-3395-4da2-8dda-f4121484fb50")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR026"
 			(at 30.48 63.5 0)
 			(effects
 				(font
@@ -10527,7 +10320,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR051")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10594,6 +10387,14 @@
 		(pin "2"
 			(uuid "9dcdd3ca-ea56-496b-82cc-05140d3acc10")
 		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10605,7 +10406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a69673c-bc1f-48f7-9596-f94f8eff607b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR025"
 			(at 24.13 142.24 0)
 			(effects
 				(font
@@ -10656,7 +10457,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR017")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10672,7 +10473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a07bca43-2581-47bf-be13-c4b007da4eff")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG05"
 			(at 113.03 46.355 0)
 			(effects
 				(font
@@ -10722,7 +10523,7 @@
 		(instances
 			(project ""
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#FLG06")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -10945,7 +10746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb48dc9c-5309-457e-9e8f-6c52ec19875f")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR042"
 			(at 218.44 22.86 0)
 			(effects
 				(font
@@ -10995,7 +10796,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR047")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11061,6 +10862,14 @@
 		)
 		(pin "1"
 			(uuid "d5941533-0302-4aed-8803-70b76df6e258")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11226,7 +11035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 113.03 22.86 90)
 			(effects
 				(font
@@ -11258,6 +11067,14 @@
 		)
 		(pin "1"
 			(uuid "9cd7821c-5bb0-4386-8f51-1a0cbd63a737")
+		)
+		(instances
+			(project "GamePal_PCB"
+				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11337,7 +11154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6256e16-2988-412a-8062-fd6b1c74834d")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR034"
 			(at 86.36 22.86 0)
 			(effects
 				(font
@@ -11388,7 +11205,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR020")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11404,7 +11221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da72c0c3-ef0c-4f12-87e2-e364b7c81921")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR039"
 			(at 143.51 25.4 0)
 			(effects
 				(font
@@ -11454,7 +11271,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR015")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11470,7 +11287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2e000af-9d6a-4253-8bff-529ede33b260")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR031"
 			(at 44.45 142.24 0)
 			(effects
 				(font
@@ -11521,7 +11338,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR016")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11537,7 +11354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a7a8b8-3c13-4547-9629-dd7dc2a76baa")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR044"
 			(at 254 144.78 0)
 			(effects
 				(font
@@ -11587,7 +11404,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR053")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11689,7 +11506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Seiko_MS621F"
 			(at 98.044 22.86 90)
 			(effects
 				(font
@@ -11741,7 +11558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebace753-2cae-43a0-885c-fdb335ac4a51")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR040"
 			(at 144.78 182.88 0)
 			(effects
 				(font
@@ -11791,7 +11608,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR023")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11874,7 +11691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee4e6c25-c979-422b-8385-a14d57961fff")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR038"
 			(at 139.7 182.88 0)
 			(effects
 				(font
@@ -11924,7 +11741,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR022")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11940,7 +11757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee85a31b-9f69-4078-9a3d-217d6462278a")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR037"
 			(at 125.73 35.56 0)
 			(effects
 				(font
@@ -11990,7 +11807,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/6851e21e-6a0d-46da-adf0-6c5e1986b77c"
-					(reference "#PWR090")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
