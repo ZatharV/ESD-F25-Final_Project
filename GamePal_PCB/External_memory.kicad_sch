@@ -1628,7 +1628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "029327b8-d65d-43cb-a76b-bdd94d9cb89c")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR086"
 			(at 231.14 128.27 0)
 			(effects
 				(font
@@ -1678,7 +1678,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR065")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -1694,7 +1694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05e0fb1e-2507-4296-943a-45f7aef43260")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR070"
 			(at 59.69 80.01 0)
 			(effects
 				(font
@@ -1744,7 +1744,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR043")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1760,7 +1760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c07eba0-0194-47d7-9248-abea4b8ba6ad")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR068"
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -1811,7 +1811,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR041")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1827,7 +1827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d0feedb-0ec0-4ac3-9259-8619e1fbd297")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR075"
 			(at 163.83 129.54 0)
 			(effects
 				(font
@@ -1877,7 +1877,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR094")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -1963,7 +1963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22a9093c-916c-487a-b752-63daf826dd38")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR076"
 			(at 173.99 91.44 0)
 			(effects
 				(font
@@ -2014,7 +2014,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR069")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -2030,7 +2030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44bcda6b-fba9-4752-8641-d59cdbaf0a27")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR082"
 			(at 218.44 120.65 0)
 			(effects
 				(font
@@ -2080,7 +2080,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR062")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2166,7 +2166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f782cc9-726b-4f58-94b4-8812a9dd8fc2")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR079"
 			(at 175.26 83.82 0)
 			(effects
 				(font
@@ -2217,7 +2217,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR067")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2233,7 +2233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "554b8275-1589-4e86-8f75-0b55735d1808")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR067"
 			(at 39.37 63.5 0)
 			(effects
 				(font
@@ -2284,7 +2284,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR040")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2458,7 +2458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bc6457b-81ad-4f17-8dff-aff536466269")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR077"
 			(at 180.34 102.87 0)
 			(effects
 				(font
@@ -2508,7 +2508,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR070")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -2524,7 +2524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e27c843-0a59-42b6-bde0-c7d94e6df363")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR074"
 			(at 133.35 128.27 0)
 			(effects
 				(font
@@ -2574,7 +2574,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR095")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -2730,7 +2730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e3da2ab-bbde-40c7-b0f1-40e30a6c79fd")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR078"
 			(at 185.42 78.74 0)
 			(effects
 				(font
@@ -2781,7 +2781,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR066")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -2867,7 +2867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abbb2ed6-20f1-46b1-bd2f-14f42605f98b")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR081"
 			(at 203.2 129.54 0)
 			(effects
 				(font
@@ -2917,7 +2917,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR092")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -2933,7 +2933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b75a1f4e-5de2-4e26-b316-b432a6dbf1bb")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR071"
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -2984,7 +2984,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR044")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3000,7 +3000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba70ba9b-c510-474d-812b-510e634df7b2")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR072"
 			(at 83.82 43.18 0)
 			(effects
 				(font
@@ -3050,7 +3050,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR058")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3231,7 +3231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce0408fe-2001-4522-beb9-d5a3cc331d01")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR073"
 			(at 83.82 54.61 0)
 			(effects
 				(font
@@ -3281,7 +3281,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR059")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3297,7 +3297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d57ee843-b21e-4bfa-8810-2b7539c45aeb")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR083"
 			(at 218.44 128.27 0)
 			(effects
 				(font
@@ -3347,7 +3347,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR063")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -3363,7 +3363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da6924b2-b79d-4e93-9f86-080972b752c4")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR080"
 			(at 181.61 129.54 0)
 			(effects
 				(font
@@ -3413,7 +3413,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR093")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db792da4-52cc-49a7-973a-d1ce53647d83")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR085"
 			(at 231.14 120.65 0)
 			(effects
 				(font
@@ -3479,7 +3479,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR064")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -3495,7 +3495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2995d97-1c0f-421c-bb4f-426575a50fa6")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR084"
 			(at 237.49 93.98 0)
 			(effects
 				(font
@@ -3546,7 +3546,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR068")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -3632,7 +3632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f50b08c7-32b1-44f4-ab81-c941bc4b1867")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR066"
 			(at 39.37 60.96 0)
 			(effects
 				(font
@@ -3683,7 +3683,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR039")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3699,7 +3699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feabc666-a45c-49d8-9c24-515d99809915")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR069"
 			(at 59.69 57.15 0)
 			(effects
 				(font
@@ -3749,7 +3749,7 @@
 		(instances
 			(project "GamePal_PCB"
 				(path "/f86353b9-28c7-498c-9494-58f0e067b3b3/9ec076c9-f611-4cec-863f-97cccc2c91d2"
-					(reference "#PWR042")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
