@@ -1,0 +1,9 @@
+../Core/Src/st7789v.c:23:6:st7789_Init	1
+../Core/Src/st7789v.c:103:6:st7789_Reset	1
+../Core/Src/st7789v.c:112:6:st7789_DisplayOn	1
+../Core/Src/st7789v.c:120:6:st7789_DisplayOff	1
+../Core/Src/st7789v.c:129:6:st7789_RunCommand	2
+../Core/Src/st7789v.c:145:6:st7789_RunCommands	2
+../Core/Src/st7789v.c:160:6:st7789_SetWindow	1
+../Core/Src/st7789v.c:197:6:st7789_FillArea	2
+../Core/Src/st7789v.c:212:6:st7789_Clear	1
