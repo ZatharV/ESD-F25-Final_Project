@@ -59,10 +59,24 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define Bat_voltage_Pin GPIO_PIN_0
+#define Bat_voltage_GPIO_Port GPIOA
+#define Bat_Full_ind_Pin GPIO_PIN_1
+#define Bat_Full_ind_GPIO_Port GPIOA
+#define Bat_CHRG_ind_Pin GPIO_PIN_2
+#define Bat_CHRG_ind_GPIO_Port GPIOA
 #define Speaker_out_Pin GPIO_PIN_5
 #define Speaker_out_GPIO_Port GPIOA
 #define SPEAKER_SHDN_Pin GPIO_PIN_7
 #define SPEAKER_SHDN_GPIO_Port GPIOA
+#define LCD_BCKLT_Pin GPIO_PIN_9
+#define LCD_BCKLT_GPIO_Port GPIOE
+#define SW_ARR_2_Pin GPIO_PIN_14
+#define SW_ARR_2_GPIO_Port GPIOB
+#define SD_card_CS_Pin GPIO_PIN_15
+#define SD_card_CS_GPIO_Port GPIOA
+#define LCD_CS_Pin GPIO_PIN_0
+#define LCD_CS_GPIO_Port GPIOD
 
 /* USER CODE BEGIN Private defines */
 

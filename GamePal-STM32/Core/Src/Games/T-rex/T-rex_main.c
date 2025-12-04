@@ -182,3 +182,14 @@ void T_rex_main()
         gfx_present();
     }
 }
+
+
+#include "Games/T-rex/T-rex_main.h"
+#include "TFT-LCD.h"
+#include "Fonts/fonts.h"
+
+
+void T_rex_main()
+{
+    memset(LCD_screen_matrix, 0xFF, sizeof(LCD_screen_matrix));
+}

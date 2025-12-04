@@ -13,6 +13,10 @@
 #define LCD_WIDTH	320
 #define LCD_HEIGHT	240
 
-const uint16_t LCD_screen_matrix[LCD_HEIGHT][LCD_WIDTH];
+#define LCD_array_size	(LCD_WIDTH * LCD_HEIGHT)
+
+const uint16_t LCD_screen_matrix[LCD_array_size];
+
+
 
 #endif /* INC_TFT_LCD_H_ */
