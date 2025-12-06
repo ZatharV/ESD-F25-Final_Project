@@ -1,0 +1,14 @@
+../Core/Src/Games/Snake_game.c:50:20:DrawPixelRaw	3
+../Core/Src/Games/Snake_game.c:213:13:CommitHighScoreIfNeeded	4
+../Core/Src/Games/Snake_game.c:137:13:DrawString5x7.constprop	8
+../Core/Src/Games/Snake_game.c:145:13:DrawUInt.constprop	5
+../Core/Src/Games/Snake_game.c:227:6:DrawBlock	5
+../Core/Src/Games/Snake_game.c:242:6:Init_Buttons_GPIO	1
+../Core/Src/Games/Snake_game.c:263:6:Poll_Input	9
+../Core/Src/Games/Snake_game.c:305:6:Generate_Fruit	4
+../Core/Src/Games/Snake_game.c:323:6:Snake_Setup	2
+../Core/Src/Games/Snake_game.c:345:6:Snake_Logic	16
+../Core/Src/Games/Snake_game.c:405:6:Snake_Draw	9
+../Core/Src/Games/Snake_game.c:439:6:Snake_Game_Init	1
+../Core/Src/Games/Snake_game.c:445:6:Snake_Game_Loop	5
+../Core/Src/Games/Snake_game.c:470:6:snake_gamePlay	5

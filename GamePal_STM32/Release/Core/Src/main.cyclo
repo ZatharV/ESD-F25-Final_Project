@@ -1,0 +1,5 @@
+../Core/Src/main.c:153:6:SystemClock_Config	4
+../Core/Src/main.c:477:6:display_game_list	1
+../Core/Src/main.c:501:6:select_game	5
+../Core/Src/main.c:87:5:main	9
+../Core/Src/main.c:533:6:Error_Handler	1

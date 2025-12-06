@@ -1,0 +1,7 @@
+../Core/Src/TFT_LCD.c:29:6:LCD_Display_Text	40	static
+../Core/Src/TFT_LCD.c:60:6:LCD_clear_screen	16	static
+../Core/Src/TFT_LCD.c:78:6:update_LCD_matrix	16	static
+../Core/Src/TFT_LCD.c:84:6:LCD_IO_Delay	16	static
+../Core/Src/TFT_LCD.c:89:6:LCD_IO_Init	8	static
+../Core/Src/TFT_LCD.c:103:6:LCD_IO_WriteCommand	24	static
+../Core/Src/TFT_LCD.c:118:6:LCD_IO_WriteData	24	static

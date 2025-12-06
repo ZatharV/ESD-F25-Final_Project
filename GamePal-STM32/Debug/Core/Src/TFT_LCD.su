@@ -1,2 +1,0 @@
-../Core/Src/TFT_LCD.c:21:6:LCD_Display_Text	32	static
-../Core/Src/TFT_LCD.c:54:6:update_LCD_matrix	16	static

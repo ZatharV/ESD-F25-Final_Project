@@ -1,0 +1,7 @@
+../Core/Src/TFT_LCD.c:29:6:LCD_Display_Text	7
+../Core/Src/TFT_LCD.c:60:6:LCD_clear_screen	2
+../Core/Src/TFT_LCD.c:78:6:update_LCD_matrix	1
+../Core/Src/TFT_LCD.c:84:6:LCD_IO_Delay	1
+../Core/Src/TFT_LCD.c:89:6:LCD_IO_Init	1
+../Core/Src/TFT_LCD.c:103:6:LCD_IO_WriteCommand	1
+../Core/Src/TFT_LCD.c:118:6:LCD_IO_WriteData	1
