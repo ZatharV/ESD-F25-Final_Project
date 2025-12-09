@@ -35,19 +35,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  15 .debug_aranges 00001298  00000000  00000000  00022980  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  000255be  00000000  00000000  00023c18  2**0
+ 16 .debug_macro  000255d4  00000000  00000000  00023c18  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   00016d33  00000000  00000000  000491d6  2**0
+ 17 .debug_line   00016d33  00000000  00000000  000491ec  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000df3b0  00000000  00000000  0005ff09  2**0
+ 18 .debug_str    000df3bf  00000000  00000000  0005ff1f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  0013f2b9  2**0
+ 19 .comment      00000043  00000000  00000000  0013f2de  2**0
                   CONTENTS, READONLY
- 20 .debug_rnglists 00000e2b  00000000  00000000  0013f2fc  2**0
+ 20 .debug_rnglists 00000e2b  00000000  00000000  0013f321  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_frame  000057e4  00000000  00000000  00140128  2**2
+ 21 .debug_frame  000057e4  00000000  00000000  0014014c  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 0000005e  00000000  00000000  0014590c  2**0
+ 22 .debug_line_str 0000005e  00000000  00000000  00145930  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -4429,7 +4429,7 @@ static void MX_LTDC_Init(void)
   pLayerCfg.BlendingFactor2 = LTDC_BLENDING_FACTOR2_CA;
  8002190:	2305      	movs	r3, #5
  8002192:	627b      	str	r3, [r7, #36]	@ 0x24
-  pLayerCfg.FBStartAdress = (uint32_t)&LCD_screen_matrix;
+  pLayerCfg.FBStartAdress = (uint32_t) &LCD_screen_matrix;
  8002194:	4b11      	ldr	r3, [pc, #68]	@ (80021dc <MX_LTDC_Init+0x104>)
  8002196:	62bb      	str	r3, [r7, #40]	@ 0x28
   pLayerCfg.ImageWidth = 240;

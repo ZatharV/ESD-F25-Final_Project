@@ -1,5 +1,5 @@
-../Core/Src/main.c:153:6:SystemClock_Config	88	static,ignoring_inline_asm
-../Core/Src/main.c:477:6:display_game_list	32	static
-../Core/Src/main.c:501:6:select_game	16	static
-../Core/Src/main.c:87:5:main	120	static,ignoring_inline_asm
-../Core/Src/main.c:533:6:Error_Handler	0	static,ignoring_inline_asm
+../Core/Src/main.c:188:6:SystemClock_Config	88	static,ignoring_inline_asm
+../Core/Src/main.c:516:6:display_game_list	24	static
+../Core/Src/main.c:534:6:select_game	16	static
+../Core/Src/main.c:118:5:main	120	static,ignoring_inline_asm
+../Core/Src/main.c:575:6:Error_Handler	0	static,ignoring_inline_asm

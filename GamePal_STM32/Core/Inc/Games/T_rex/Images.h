@@ -1,8 +1,13 @@
 /*
  * Images.h
- *
+ * 
+ * This file contains the raw images data and length for T-rex game.
+ * The images are stored as arrays in RGB565 color format. 
+ * All the images are stored in flash memory to save RAM space.
+ * 
  *  Created on: Dec 4, 2025
- *      Author: Atharv
+ *      Author: Atharv More
+ * 		Modified by: Mayuresh Pitale
  */
 
 #ifndef INC_IMAGES_H_

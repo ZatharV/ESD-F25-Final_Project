@@ -1,8 +1,12 @@
 /*
  * T_rex.h
  *
+ * Include this file to run T-rex game on the GamePal.
+ * It contains the main function of the game.
+ *
  *  Created on: Dec 5, 2025
- *      Author: Atharv
+ *      Author: Atharv More
+ *      Modified by: Mayuresh Pitale
  */
 
 #ifndef INC_GAMES_T_REX_H_
@@ -12,10 +16,6 @@
 #include "Images.h"
 
 void T_rex_main();
-uint8_t get_input();
-void menu_screen();
-void clear_screen();
-void dino_run();
 
 #define Dino_Track_pos_x	0
 #define Dino_Track_pos_y	150

@@ -1,8 +1,13 @@
 /*
  * User_Interface.h
  *
+ * Include this file to use the User Interface functions.
+ * It contains the function to read the switch states.
+ * You can read the states of the switches.
+ *
  *  Created on: Dec 5, 2025
- *      Author: Atharv
+ *      Author: Atharv More
+ *      Modified by: Mayuresh Pitale
  */
 
 #ifndef INC_USER_INTERFACE_H_
